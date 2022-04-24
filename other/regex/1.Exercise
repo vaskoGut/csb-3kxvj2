@@ -1,0 +1,5 @@
+[a-zA-Z\s] - 
+[] - match everything between []
+a-z - match everth between a-z
+A-Z - match everth betwenn A-Z
+\s - match empty place

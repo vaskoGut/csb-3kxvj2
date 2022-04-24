@@ -1,0 +1,52 @@
+1. POC - profe of concept
+
+2. A-B Testing - its experimet when you take 2 variants of page and display
+it to difference users. This test helps to determince what version of page's
+prefered, liked more by users. For example it can be done with Optimizely and
+google analytics a/b tests.
+
+3. CDP - Customer data platform - software creating unified, persistent customer database for needs of other systems.
+
+4. RC - Release Candidate
+
+5. PROXY - A proxy server is used to facilitate security,
+administrative control or caching service, among other possibilities.
+In a personal computing context, proxy servers are used to enable user privacy 
+and anonymous surfing. Proxy servers are used for both legal and illegal purposes.
+
+6. what is DNS. The Domain Name System (DNS) turns domain 
+names into IP addresses, which browsers use to load internet pages.
+Every device connected to the internet has its own IP address,
+which is used by other devices to locate the device.
+
+7. what is Cname record?
+- CNAME is just an alias. A Canonical Name or CNAME record is a type of DNS record that maps an alias name to a true 
+or canonical domain name.
+
+8. What is SSR?
+Server-side rendering (SSR) is a popular technique for rendering 
+a client-side single page application (SPA) on the server and then 
+sending a fully rendered page to the client. This allows
+for dynamic components to be served as static HTML markup.
+
+So its the abilit of a web application to render the web pageon the server
+instead of rendering it in the browswer. So when page arrived on the client side,
+it is fully rendered. Server fully rendered it for us.
+Every time the client navigates to a diferent route, the server will to the work all over again.
+
+9. what is CSR?
+Client side rendering. CSR renders the page on the client side. Server
+server will send a single page with js file. Later js turn the page into a fully rendered page.
+Data comes from api. Server will not send the page again, the client will rerender
+the page accodring to the route that client requested. So page is always same as the first request.
+
+10. kebab case, camel case.
+kebab case: descriptive-variable-name
+camel case: descriptiveVariableName
+
+11. What is canonical urls?
+A canonical URL is the URL of the best representative page from a group of duplicate pages, according to Google. For example, if you have two URLs for the same page (for example: example.com? dress=1234 and example.com/dresses/1234 ),
+Google chooses one as canonical.
+
+12. What is timestamp?
+In JavaScript, a timestamp is the number of milliseconds that have passed since January 1, 1970.

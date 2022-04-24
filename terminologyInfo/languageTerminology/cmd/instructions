@@ -1,0 +1,5 @@
+1. Npm run serve?
+npm run serve - run the command I defined under the name serve
+npm run dev - run the command I defined under the name dev
+as rule run serve - we run prod build
+

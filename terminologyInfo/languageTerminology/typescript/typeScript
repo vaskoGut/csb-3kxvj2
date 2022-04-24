@@ -1,0 +1,31 @@
+1. What are enums?
+Enums allow a developer to define a set of named constants. Using enums can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based enums.
+
+2. what is map type in typescript?
+TypeScript map is a new data structure added in ES6 version of JavaScript. It allows us to store data in a key-value pair and remembers the original insertion order 
+of the keys similar to other programming languages.
+example: 
+
+let map = new Map();  
+
+map.set('1', 'abhishek');     
+map.set(1, 'www.javatpoint.com');       
+map.set(true, 'bool1');   
+map.set('2', 'ajay');  
+
+Map(4) {'1' => 'abhishek', 1 => 'www.javatpoint.com', true => 'bool1', '2' => 'ajay'}
+[[Entries]]
+0: {"1" => "abhishek"}
+1: {1 => "www.javatpoint.com"}
+2: {true => "bool1"}
+3: {"2" => "ajay"}
+size: 4
+
+3. What is boolean method in JS? 
+JavaScript provides the Boolean() function that converts other types to a boolean type. 
+
+var b2 = Boolean('h'); // true
+var b3 = Boolean(10); // true
+
+4. Renaming destructed variable:
+const { isXl: isDesktopType } = screenRecognitionContext;

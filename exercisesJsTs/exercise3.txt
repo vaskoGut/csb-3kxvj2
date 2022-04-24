@@ -1,0 +1,6 @@
+// What will be result ['10', '10', '10'].map(parseInt)
+
+Problem is parseInt will take 2 URLSearchParams, first - '10',
+and 2nd parseInt method.
+
+Parse int 2nd param is radix.

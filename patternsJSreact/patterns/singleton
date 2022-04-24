@@ -1,0 +1,44 @@
+Singleton - classes which can be instantiated
+once and can be accessed globally.
+
+
+// why it doesnt meet Singleton criteria
+let counter = 0;
+
+class Counter {
+  getInstance() {
+    return this;
+  }
+
+  getCount() {
+    return counter;
+  }
+
+  increment() {
+      return ++counter;
+  }
+
+  decrement() {
+      return --counter;
+  }
+}
+
+// cause singleton can be instantiated once, and
+// this example can be instantiated more times
+
+constructor() {
+  if(instance) { // it prevents creating more than 1 instance
+    throw new Error("You can only create one instance!");
+  }
+  instance = this;
+}
+
+const singletonCounter = Object.freeze(new Ccounter());
+// Object.freez makes sure consuming code cannot modify SIngleton.
+
+Singleton in react.
+We rely on tools like Redux or React Context.
+Their global state - isn't mutable in comparison to
+Singleton. It's only readable.
+In redux pure function updating state.
+

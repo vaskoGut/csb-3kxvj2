@@ -1,0 +1,2 @@
+HTTP Status 301 is one of the redirection related statuses,
+which indicates that the resource requested has been permanently moved to the URL given by the Location header. And all the future requests should use the new URI.

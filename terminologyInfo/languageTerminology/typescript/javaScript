@@ -1,0 +1,9 @@
+1. how does work charcodeAt?
+- it returns unicode of text sign.
+
+example: 
+
+let text = "HELLO WORLD";
+let code = text.charCodeAt(4);
+
+// 79

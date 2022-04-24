@@ -1,0 +1,7 @@
+1. Let's suggest we're merging our desired changes to Dev and know want to release it.
+2. from dev we're creating a release brunch and a pull request to Master
+3. dev brunch can be updated with new commits, it will not conflict with release now
+4. release brunch can be connected to host for testing purposes.
+5. If everything's good, we're merging release to master.
+6. If it (commits) was smth new on release brunch added, it should be updated, merged also to dev, to avoid conflicts.
+thats all :)

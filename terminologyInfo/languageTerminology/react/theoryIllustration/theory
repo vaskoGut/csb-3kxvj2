@@ -1,0 +1,13 @@
+1. what is JSX?
+JSX is an extension to
+JavaScript which embeds template HTML in JS using XML-like syntax. It is
+meant to be transformed into valid JavaScript, though the semantics of that
+transformation are implementation-specifi
+
+2. What is Babel? Babel is a JavaScript transpiler. Babel turns ES6 code into ES5 code. We call this process
+transpiling. So we can enjoy the features of ES6 today yet ensure our code still runs in browsers
+that only support ES5.
+
+3. why we need reacDom?
+We tell what and where to render smth.
+ReactDOM.render([what], [where]);

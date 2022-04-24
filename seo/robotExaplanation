@@ -1,0 +1,13 @@
+// disable web crawling:
+
+User-agent: *
+Disallow: /
+
+// enable crawling:
+
+User-agent: *
+Allow: /
+
+// disable specific page
+
+Disallow: /search-results/
